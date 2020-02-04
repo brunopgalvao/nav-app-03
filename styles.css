@@ -39,10 +39,12 @@ nav {
 }
 
 .x-mark {
-    margin: 20px;
+    background-image: url("images/ico-close.svg");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin: 50px;
     align-self: flex-start;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
     cursor: pointer;
 }
 
@@ -87,6 +89,9 @@ img {
     .menu {
         width: 100vw;
         box-shadow: 2px 2px 10px 2px #CECECE;
+    }
+    .x-mark {
+        margin: 20px;
     }
     .products {
         width: 70vw;
